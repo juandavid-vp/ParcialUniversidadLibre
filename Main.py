@@ -31,7 +31,7 @@ def tildes():
 tildes()
 
 #---------------------------------------------------
-"""
+
 # 3) recorre 'vegetales' usando un 'for' y enumarate():
 # muestra los que tengan el nombre más largo
 # y el nombre mas corto
@@ -44,10 +44,10 @@ def vegetal_l():
             vegetal_largo = vegetal
     for vegetal in vegetales:
         if len(vegetal) == len(vegetal_largo):
+
             vegetal_largo = vegetal
             lista_vegetales_largos.append(vegetal_largo)
     return lista_vegetales_largos
-
 def vegetal_p():
     vegetal_pequeño = vegetal_l()
     vegetal_pequeño = vegetal_pequeño[-1]
@@ -63,7 +63,7 @@ def vegetal_p():
 print(vegetal_l(), vegetal_p())
 
 #---------------------------------------------------
-"""
+
 # 4) con 'products'
 # para cada producto mostrar el nombre, la descripción y el código de barras
 
