@@ -1,6 +1,6 @@
 # importe los datos necesarios
 from Date import vegetales, products
-"""
+
 #-------------------------------------------------
 
 # 1) recorra 'vegetales' usando un 'for':
@@ -104,7 +104,7 @@ def calculo():
                     precio_con_impuestos = precio_sin_impuestos + (precio_sin_impuestos * (taxe_number/100))
     return precio_con_impuestos
 print(calculo())    
-"""
+
 
 
 
